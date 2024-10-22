@@ -1,5 +1,5 @@
-export default function CoreConcept(props) {
-	const { title, description, image } = props;
+export default function CoreConcept({ ...item }) {
+	const { title, description, image } = item;
 
 	return (
 		<li>
